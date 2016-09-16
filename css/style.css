@@ -1,0 +1,274 @@
+h1 {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 200%;
+}
+
+h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 150%;
+}
+
+
+#titrejumbo, #sloganjumbo {
+	text-align: center;
+    text-shadow: 3px 3px 3px white;
+	color: black;
+}
+
+.navbar {
+	font-family: 'Allerta Stencil', sans-serif;
+	background-color: #2e0e03;
+	opacity: 0.9;
+	margin: auto;
+	display: inline-block;
+}
+
+.caret {
+	margin-left: 45%;
+}
+
+.navwhite {
+	color: white;
+	font-size: 18px;
+	margin-top: 0;
+	width: 100%;	
+}
+
+.scroll {
+	display: block;
+	text-align: center;
+    text-shadow: 3px 3px 3px white;
+	color: black;
+	font-size: 300%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;	
+	width: 100vh;
+	height: 20vh;
+	-webkit-filter: drop-shadow(3px 3px 3px white);
+	filter: drop-shadow(3px 3px 3px white);
+}
+
+
+#titrejumbo, #sloganjumbo {
+	text-align: center;
+    text-shadow: 3px 3px 3px white;
+	color: black;
+}
+
+#sloganjumbo {
+	font-size: 200%;
+}
+
+.jumbotron {
+    background-image: url(jumbo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#click {
+	margin-left: 45%;
+	background-color: transparent;
+	border-style: none;
+}
+
+.presentation {
+	text-align: center;
+	padding: 2%;
+}
+
+							/* Bloc Produits */
+
+#bloc_produits {
+	background-image: url(leather.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	text-shadow: 3px 3px 3px black;
+	color: white;
+	padding: 3%;
+}
+
+.produit {
+	padding-top: 2%
+	opacity:0.5;
+}
+
+.titre_chaussepied, .titre_tirebotte {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 250%;
+}
+
+.titre_produit {
+	text-align: center;
+	font-size: 180%;
+	font-family: 'Allerta Stencil', sans-serif;
+	color: black;
+}
+
+.btn {
+	margin-left: 40%;
+	background-color: transparent;
+	border-style: none;
+}
+
+.btn:hover {
+	background-color: transparent;
+}
+
+.btn:active {
+	background-color: transparent;	
+}
+
+.btn:focus {
+	background-color: transparent;	
+}
+
+.glyphicon-plus {
+	color: black;
+	margin: auto;
+}
+
+.img_produit {
+	width: 60%;
+	height: 60%;
+	margin: auto;
+}
+
+.modal-title {
+	font-size: 300%;
+	text-align: center;
+	font-family: 'Allerta Stencil', sans-serif;
+}
+
+.modal-body {
+	font-size: 150%;
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	text-shadow: none;
+}
+
+
+							/*Fin Bloc Produits */
+
+.perso {
+	text-align: center;
+	margin: auto;
+	padding: 2%;
+}
+
+.nouveaute {
+	font-family: 'Allerta Stencil', sans-serif;
+	font-size: 400%;
+}
+
+.glyphicon-envelope {
+	font-size: 130%;
+}
+
+.imgperso{
+	height: 50%;
+	width: 45%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	border-radius: 25px 0 25px 0;
+	box-shadow: 5px 5px 5px black;
+}
+.nosmags {
+	text-align: center;
+}
+.nosmags2 {
+	font-size: 28px;
+	text-align: center;
+}
+.maps{
+	padding-top: 20px;
+	background-image: url(leather.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	text-shadow: 3px 3px 3px black;
+	color: white;
+	width: 100%;
+	margin: auto;
+
+}
+
+.maps2 {
+	text-align: center;	
+	margin-top: 5%;
+}
+
+.mag{
+	width: 100%;
+	height: 450px;
+	margin-top: 10%;
+	box-shadow: 5px 5px 5px black;
+
+}
+
+iframe {
+	width: 100%;
+	height: 450px;
+	border: 0px;
+	box-shadow: 5px 5px 5px black;
+}
+
+footer {
+	padding: 2%;
+	background-color: #2e0e03;
+	color: white;
+	text-align: center;
+}
+
+.foot {
+	color: white;
+	font-family: 'Allerta Stencil', sans-serif;
+	list-style: none;
+	font-size: 20px;
+	padding-bottom: 2%;
+}
+
+.contact {
+	font-size: 20px;
+	
+}
+.social {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin: 40px 10px 0 10px; 
+
+}
+
+.foot_right {
+	text-align: center;
+
+}
+.titre_mentions {
+	text-align: center;
+	color: #2e0e03;
+	font-size: 25px;
+}
+.mentions {
+	text-align: justify;
+	color: black;
+	padding: 10px;
+
+}
+
+.foot_link {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.addr {
+	font-size: 20px;
+}
+

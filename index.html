@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+                                             <!-- Bootstrap JS -->  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+                                             <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+                                             <!-- Mon css perso -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+                                                <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Kaushan+Script" rel="stylesheet">
+                                              <!-- Keywords -->
+  <meta name="keywords" content="chausse, pied, chausse-pied, tire-botte, botte, artisanat, made in france">
+	<title>Wild Shoes</title>
+</head>
+<body>
+
+<header>
+                                                <!-- Navbar -->
+<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+                                              <!-- Burger Menu -->
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+                                            <!-- Liens de navbar -->
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="./index.html"><h3 class="navwhite"><span class="glyphicon glyphicon-home"></span></h3> <span class="sr-only">(current)</span></a></li>
+                                            <!-- Dropdown left -->        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle whitetitle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3 class="navwhite">Nos Chausse-pieds</h3><span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                                            
+                    <script>
+                      $(document).ready(function (){
+                        $("#cpbois").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancrechaussepiedbois").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cpbois">Bois</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#cpmetal").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancrechaussepiedmetal").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cpmetal">Métal</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#cpcorne").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancrechaussepiedcorne").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cpcorne">Corne</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#cptele").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancrechaussepiedtele").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cptele">Téléscopique</a></li>
+
+              <li role="separator" class="divider"></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#cpperso").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#personnalisation").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="cpperso">Personnalisation</a></li>
+            </ul>
+        </li>
+        
+                                                          <!-- Fin Dropdown left -->
+                                                            <!-- Dropdown Right -->
+          <li class="dropdown">
+            <a href="#" id="tb" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><h3 class="navwhite">Nos tire-bottes</h3> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                                            
+                    <script>
+                      $(document).ready(function (){
+                        $("#tbbois").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancretirebottebois").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="tbbois">Bois</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#tbmetal").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancretirebottemetal").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="tbmetal">Métal</a></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#tbgrattoir").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#ancregrattoir1").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="tbgrattoir">Grattoirs</a></li>
+
+              <li role="separator" class="divider"></li>
+
+                    <script>
+                      $(document).ready(function (){
+                        $("#tbperso").click(function (){
+                          $('html, body').animate({
+                            scrollTop: $("#personnalisation").offset().top
+                          }, 1000);
+                        });
+                      });
+                    </script>
+              <li><a href="#" id="tbperso">Personnalisation</a></li>
+            </ul>
+        </li>
+                                                            <!-- Fin Dropdown Right -->
+              <ul class="nav navbar-nav navbar-right">
+                      <script>
+          $(document).ready(function (){
+            $("#who").click(function (){
+              $('html, body').animate({
+                scrollTop: $("#iam").offset().top
+              }, 1000);
+            });
+        });
+        </script>
+                <li><a href="#qui" id="who"><h3 class="navwhite">Qui sommes nous?</h3></a></li>
+              </ul>
+        </ul>
+      </div>
+                                          <!-- Fin de liens de navbar -->
+    </div>
+                                          <!-- Fin du container-fluid -->
+  </nav>
+  </div>                                            <!-- Fin du Navbar -->
+
+                                                  <!-- Jumbotron -->
+  <div class="jumbotron">
+	 <div class="container-fluid">
+		<div class="col-lg-12 col-md-12">
+			<img class="img-responsive logo" src="images/logo.png" alt="logo wild shoes">
+		</div>
+		<div class="col-lg-12 col-md-12">
+			<h1 id="titrejumbo">Chausse qui peut</h1>
+			<h2 id="sloganjumbo">Artisan créateur de chausse-pieds et tire-bottes depuis 1927</h2>
+      <br/>
+        <script>
+          $(document).ready(function (){
+            $("#click").click(function (){
+              $('html, body').animate({
+                scrollTop: $("#ancreproduit").offset().top
+              }, 1000);
+            });
+        });
+        </script>
+      <button id="click"><span class="glyphicon glyphicon-chevron-down scroll"></span></button>
+		</div>
+	 </div>
+  </div>
+                                                <!-- fin du Jambotron -->
+</header>
+
+                                                <!-- Bloc Présentation -->
+<div id="qui" class="presentation">
+	<div class="container-fluid" id="iam">
+			<h1>Qui sommes nous?</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<br /><br />
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla <div id="ancreproduit"></div>pariatur?
+				</p>
+		
+		</div>
+</div>
+                                                <!--Fin du div presentation-->
+
+                                                    <!-- Bloc Produits -->
+
+<div id="bloc_produits">
+                                                  <!-- Bloc chausse-pieds -->
+  <div class="row chaussepied">
+    <h1 class="titre_chaussepied">Nos chausse-pieds</h1>
+                                                      <!-- Produit 1 -->
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancrechaussepiedbois">
+    <div class="thumbnail">
+      <img src="images/chausse_pied_bois.jpeg" alt="chausse pied bois" class="img-responsive img_produit">
+      <div class="caption">
+        <h3 class="titre_produit" id="chaussepiedbois">Chausse-pied en bois</h3>
+                                                <!-- Bouton modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                              <!-- Fin Bouton modal -->
+
+                                                    <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Chausse-pied en bois</h4>
+            </div>
+            <div class="modal-body">
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+                                                  <!-- Fin Modal -->
+      </div>
+    </div>
+  </div>
+                                                    <!-- Fin Produit 1 -->
+
+                                                      <!-- Produit 2 -->
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancrechaussepiedmetal">
+    <div class="thumbnail">
+      <img src="images/chausse_pied_metal.jpeg" alt="chausse-pied métal" class="img-responsive img_produit">
+      <div class="caption">
+        <h3 class="titre_produit" id="chaussepiedmetal">Chausse-pied en métal</h3>
+                                                <!-- Bouton modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                              <!-- Fin Bouton modal -->
+
+                                                    <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Chausse-pied en métal</h4>
+            </div>
+            <div class="modal-body">
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+                                                  <!-- Fin Modal -->
+      </div>
+    </div>
+  </div>
+                                                    <!--  Fin Produit 2 -->
+
+                                                      <!-- Produit 3 -->
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancrechaussepiedcorne">
+    <div class="thumbnail">
+      <img src="images/chausse-pied-en-corne-veritable.jpg" alt="chausse-pied corne" class="img-responsive img_produit">
+      <div class="caption">
+        <h3 class="titre_produit">Chausse-pied en corne</h3>
+                                                <!-- Bouton modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                              <!-- Fin Bouton modal -->
+
+                                                    <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Chausse-pied en corne</h4>
+            </div>
+            <div class="modal-body">
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+                                                  <!-- Fin Modal -->
+      </div>
+    </div>
+  </div>
+                                                    <!--  Fin Produit 3 -->
+
+                                                      <!-- Produit 4 -->
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancrechaussepiedtele">
+    <div class="thumbnail">
+      <img src="images/téléscopique.jpeg" alt="chausse-pied téléscopique" class="img-responsive img_produit">
+      <div class="caption">
+        <h3 class="titre_produit" id="chaussepiedtele">Chausse-pied téléscopique</h3>
+                                                <!-- Bouton modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                              <!-- Fin Bouton modal -->
+
+                                                    <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Chausse-pied téléscopique</h4>
+            </div>
+            <div class="modal-body">
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+                                                  <!-- Fin Modal -->
+      </div>
+    </div>
+  </div>
+                                                    <!--  Fin Produit 4 -->
+  </div>
+                                                <!-- Fin Bloc chausse-pieds -->
+
+                                                  <!-- Bloc tire-bottes -->
+  <div class="row tirebotte">
+    <h1 class="titre_tirebotte">Nos tire-bottes et grattoirs</h1>
+                                                    <!-- Produit 5 -->
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancretirebottebois">
+    <div class="thumbnail">
+      <img src="images/tirebotte_bois.jpeg" alt="tire-botte bois" class="img-responsive img_produit">
+      <div class="caption">
+        <h3 class="titre_produit" id="tirebottebois">Tire-bottes en bois</h3>
+                                                <!-- Bouton modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                              <!-- Fin Bouton modal -->
+
+                                                    <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Tire-bottes en bois</h4>
+            </div>
+            <div class="modal-body">
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+                                                  <!-- Fin Modal -->
+      </div>
+    </div>
+  </div>
+                                                    <!--  Fin Produit 5 -->
+
+                                                      <!-- Produit 6 -->
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancretirebottemetal">
+    <div class="thumbnail">
+      <img src="images/tirebotte_metal.jpeg" alt="tire-botte métal" class="img-responsive img_produit">
+      <div class="caption">
+        <h3 class="titre_produit" id="tirebottemetal">Tire-bottes métal</h3>
+                                                <!-- Bouton modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                              <!-- Fin Bouton modal -->
+
+                                                    <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Tire-bottes en métal</h4>
+            </div>
+            <div class="modal-body">
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+                                                  <!-- Fin Modal -->
+      </div>
+    </div>
+  </div>
+                                                    <!--  Fin Produit 6 -->
+
+                                                      <!-- Produit 7 -->     
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancregrattoir1">
+    <div class="thumbnail">
+      <img src="images/grattoir.jpeg" alt="grattoir" class="img-responsive img_produit">
+      <div class="caption">
+        <h3 class="titre_produit" id="grattoir">Grattoir</h3>
+                                                <!-- Bouton modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                              <!-- Fin Bouton modal -->
+
+                                                    <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+            </div>
+            <div class="modal-body">
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+                                                  <!-- Fin Modal -->
+      </div>
+    </div>
+  </div>
+                                                    <!--  Fin Produit 7 -->
+
+                                                      <!-- Produit 8 -->
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 produit" id="ancregrattoir1">
+    <div class="thumbnail">
+      <img src="images/grattoir2.jpg" alt="grattoir" class="img-responsive img_produit">
+      <div class="caption">
+        <h3 class="titre_produit" id="grattoir">Grattoir</h3>
+                                                <!-- Bouton modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></button>
+                                              <!-- Fin Bouton modal -->
+
+                                                    <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">Grattoir</h4>
+            </div>
+            <div class="modal-body">
+               <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+                                                  <!-- Fin Modal -->
+      </div>
+    </div>
+  </div>
+                                                      <!--  Fin Produit 8 -->
+  </div>
+                                                  <!-- Fin bloc tirre-bottes -->
+</div>
+                                                    <!-- Fin Bloc Produits -->
+
+
+
+                                            <!-- Bloc Personnalisation-->                                          
+  <div class="row perso" id="personnalisation">
+    <div class="col-lg-6 col-md-6">
+      <h1 class="nouveaute">Nouveauté <span class="label label-danger">New</span></h1>
+        <h2>Personnaliser vos produits</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <br /><br />
+          </p> 
+                                              <!--Formulaire Mailo -->
+        <h2>Nous contacter pour un devis</h2>
+        <a href="mailto:someone@somewheredotcom" title="Some Email">
+        <span class="glyphicon glyphicon-envelope"><br/>wildshoespersonnalisation@wildshoes.com</span></button>
+    </a> 
+    </div>    
+      <div class="col-lg-6 col-md-6">
+        <img src="images/chausse_pied_corne.jpeg" class="imgperso">
+          </div>
+  </div>
+                                    <!-- Fin bloc Personnalisation-->
+
+<!--Partie carte des magasins-->
+<div class="row maps container-fluid">
+	<h1 class="nosmags">Nos magasins</h1>
+	<h2 class="nosmags2">Nos magasin sont implantés sur toute la France, Cliquez sur un point pour connaitre l'adresse la plus proche de chez voluptas</h2>
+<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12 left_present">
+		
+			
+      <img class="mag hidden-sm hidden-xs" src="images/fond_carte.jpg" alt="Magasins">
+	</div>
+	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 maps2">	
+	<iframe src="https://umap.openstreetmap.fr/fr/map/projet-wild_102268#6/47.621/2.296?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&allowEdit=false&moreControl=true&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe><p><a href="https://umap.openstreetmap.fr/fr/map/projet-wild_102268">Voir en plein écran</a></p>
+	</div>
+  </div>
+</div> 
+
+<!--Fin de la carte des magasins-->
+
+                                                  <!--Début du footer-->
+  <footer class="container-fluid">
+    <div class="row">
+                                               <!--Bloc de gauche-->
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 center_bloc">
+        <h1 class="contact">Siège social :</h1>
+        <h2 class="addr_titre">Wild Shoes</h2>
+        <p class="addr">Avenue du Champs de mars</p>
+        <p class="addr">45000 - Orléans</p>
+      </div>
+      
+                                              <!-- Fin bloc de Gauche -->
+                                                  <!-- Bloc centre -->
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 right_bloc">
+        <a href="http://www.facebook.com"><img class="social img-responsive" src="images/facebook.png" alt="Facebook"></a>
+        <a href="http://www.twitter.com"><img class="social img-responsive" src="images/twitter.png" alt="Twitter"></a>
+        <a href="https://fr.pinterest.com/"><img class="social img-responsive" src="images/pinterest.png" alt="Pinterest"></a>
+      </div>
+                                                <!-- Fin Bloc centre -->
+
+                                                <!-- Bloc de droite -->
+      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 left_bloc">
+        
+<!-- Large modal -->
+<div class="modal-foot">
+<a href="#" class="foot_right" data-toggle="modal" data-target=".bs-example-modal-lg"><h1 class="foot_link">Mentions légales</h1></a>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    	<h2 class="titre_mentions">Mentions légales</h2>
+      		<p class="mentions">
+
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum dolor nibh, et egestas odio suscipit at. Proin congue mi ac lobortis egestas. Suspendisse gravida viverra varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam eget malesuada sem. Nunc scelerisque vulputate orci et auctor. Sed mattis nisi et scelerisque dapibus. Aliquam et enim sit amet ligula elementum vulputate vitae vel purus. Morbi sollicitudin venenatis neque sed gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ac dolor a ex aliquam mattis. Nunc in diam enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent quis lacinia nibh.
+
+				Praesent mattis elit et massa lobortis, ac eleifend magna finibus. Curabitur est diam, placerat ut consectetur in, semper non metus. Praesent facilisis massa at sapien tincidunt, eget mollis augue facilisis. Fusce enim orci, facilisis sed augue a, rhoncus viverra justo. Aenean quis condimentum ipsum. Fusce vehicula ac nulla non finibus. Aenean mattis nunc non condimentum mollis. Donec at vestibulum lorem. Proin eu orci metus. Sed fringilla, metus sit amet commodo consequat, libero lacus finibus justo, ac aliquet dui tellus at nisl. Nunc sit amet ornare ligula, eu dignissim odio.
+
+				Nam et elementum nibh. In hac habitasse platea dictumst. Sed condimentum lorem nec nisl varius ultricies. Pellentesque vitae malesuada nulla. Etiam vel enim odio. Etiam elementum malesuada pulvinar. Cras in bibendum risus. Nullam mollis fringilla turpis in consequat. Quisque lorem turpis, pellentesque nec nisl auctor, elementum tempus mauris.
+
+				Nam fringilla erat sed congue consectetur. Nam volutpat imperdiet augue, vel cursus nisl scelerisque ac. Etiam tincidunt erat vel tortor interdum posuere. Duis luctus, dolor in volutpat ullamcorper, tortor est lacinia eros, sit amet posuere metus sem sed enim. In porta aliquet vehicula. Aenean mollis velit ut leo vestibulum vehicula. Etiam consequat condimentum interdum. Quisque sapien ipsum, cursus sit amet sapien vitae, ultrices elementum lorem. Nam at augue nec quam congue feugiat in ut nibh. Pellentesque ut placerat libero. Aliquam et libero est. Nulla facilisi. Ut accumsan dui sit amet elit vestibulum, eu feugiat purus vehicula. Donec vel metus est. Aenean augue nisl, blandit non pellentesque a, rhoncus quis enim. Sed consequat sit amet mauris at venenatis.
+
+				Aenean eget efficitur libero. Mauris et purus dictum, blandit risus nec, varius libero. Nunc est mi, tincidunt in blandit quis, malesuada in nibh. Maecenas elementum sagittis ante, ac fringilla nibh bibendum vitae. Mauris nibh ante, consectetur et volutpat sed, euismod vitae leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eget orci eget tortor scelerisque dictum. Duis fringilla condimentum turpis sed condimentum. Nunc ornare sem et mauris molestie pharetra. Proin dignissim efficitur ipsum, et vulputate lorem iaculis eget. Ut fermentum ac dolor ac imperdiet. Cras sed consequat quam, nec rutrum sem. </p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal-foot">
+<a href="#" class="foot_right" data-toggle="modal" data-target=".bs-example-modal-lg"><h1 class="foot_link">C.G.U</h1></a>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       	<h2 class="titre_mentions">C.G.U</h2>
+      		<p class="mentions">
+
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum dolor nibh, et egestas odio suscipit at. Proin congue mi ac lobortis egestas. Suspendisse gravida viverra varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam eget malesuada sem. Nunc scelerisque vulputate orci et auctor. Sed mattis nisi et scelerisque dapibus. Aliquam et enim sit amet ligula elementum vulputate vitae vel purus. Morbi sollicitudin venenatis neque sed gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ac dolor a ex aliquam mattis. Nunc in diam enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent quis lacinia nibh.
+
+				Praesent mattis elit et massa lobortis, ac eleifend magna finibus. Curabitur est diam, placerat ut consectetur in, semper non metus. Praesent facilisis massa at sapien tincidunt, eget mollis augue facilisis. Fusce enim orci, facilisis sed augue a, rhoncus viverra justo. Aenean quis condimentum ipsum. Fusce vehicula ac nulla non finibus. Aenean mattis nunc non condimentum mollis. Donec at vestibulum lorem. Proin eu orci metus. Sed fringilla, metus sit amet commodo consequat, libero lacus finibus justo, ac aliquet dui tellus at nisl. Nunc sit amet ornare ligula, eu dignissim odio.
+
+				Nam et elementum nibh. In hac habitasse platea dictumst. Sed condimentum lorem nec nisl varius ultricies. Pellentesque vitae malesuada nulla. Etiam vel enim odio. Etiam elementum malesuada pulvinar. Cras in bibendum risus. Nullam mollis fringilla turpis in consequat. Quisque lorem turpis, pellentesque nec nisl auctor, elementum tempus mauris.
+
+				Nam fringilla erat sed congue consectetur. Nam volutpat imperdiet augue, vel cursus nisl scelerisque ac. Etiam tincidunt erat vel tortor interdum posuere. Duis luctus, dolor in volutpat ullamcorper, tortor est lacinia eros, sit amet posuere metus sem sed enim. In porta aliquet vehicula. Aenean mollis velit ut leo vestibulum vehicula. Etiam consequat condimentum interdum. Quisque sapien ipsum, cursus sit amet sapien vitae, ultrices elementum lorem. Nam at augue nec quam congue feugiat in ut nibh. Pellentesque ut placerat libero. Aliquam et libero est. Nulla facilisi. Ut accumsan dui sit amet elit vestibulum, eu feugiat purus vehicula. Donec vel metus est. Aenean augue nisl, blandit non pellentesque a, rhoncus quis enim. Sed consequat sit amet mauris at venenatis.
+
+				Aenean eget efficitur libero. Mauris et purus dictum, blandit risus nec, varius libero. Nunc est mi, tincidunt in blandit quis, malesuada in nibh. Maecenas elementum sagittis ante, ac fringilla nibh bibendum vitae. Mauris nibh ante, consectetur et volutpat sed, euismod vitae leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eget orci eget tortor scelerisque dictum. Duis fringilla condimentum turpis sed condimentum. Nunc ornare sem et mauris molestie pharetra. Proin dignissim efficitur ipsum, et vulputate lorem iaculis eget. Ut fermentum ac dolor ac imperdiet. Cras sed consequat quam, nec rutrum sem. </p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal-foot">
+<a href="#" class="foot_right" data-toggle="modal" data-target=".bs-example-modal-lg"><h1 class="foot_link">A propos de nous</h1></a>
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+       	<h2 class="titre_mentions">A propos de nous</h2>
+      		<p class="mentions">
+
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum dolor nibh, et egestas odio suscipit at. Proin congue mi ac lobortis egestas. Suspendisse gravida viverra varius. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nam eget malesuada sem. Nunc scelerisque vulputate orci et auctor. Sed mattis nisi et scelerisque dapibus. Aliquam et enim sit amet ligula elementum vulputate vitae vel purus. Morbi sollicitudin venenatis neque sed gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ac dolor a ex aliquam mattis. Nunc in diam enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent quis lacinia nibh.
+
+				Praesent mattis elit et massa lobortis, ac eleifend magna finibus. Curabitur est diam, placerat ut consectetur in, semper non metus. Praesent facilisis massa at sapien tincidunt, eget mollis augue facilisis. Fusce enim orci, facilisis sed augue a, rhoncus viverra justo. Aenean quis condimentum ipsum. Fusce vehicula ac nulla non finibus. Aenean mattis nunc non condimentum mollis. Donec at vestibulum lorem. Proin eu orci metus. Sed fringilla, metus sit amet commodo consequat, libero lacus finibus justo, ac aliquet dui tellus at nisl. Nunc sit amet ornare ligula, eu dignissim odio.
+
+				Nam et elementum nibh. In hac habitasse platea dictumst. Sed condimentum lorem nec nisl varius ultricies. Pellentesque vitae malesuada nulla. Etiam vel enim odio. Etiam elementum malesuada pulvinar. Cras in bibendum risus. Nullam mollis fringilla turpis in consequat. Quisque lorem turpis, pellentesque nec nisl auctor, elementum tempus mauris.
+
+				Nam fringilla erat sed congue consectetur. Nam volutpat imperdiet augue, vel cursus nisl scelerisque ac. Etiam tincidunt erat vel tortor interdum posuere. Duis luctus, dolor in volutpat ullamcorper, tortor est lacinia eros, sit amet posuere metus sem sed enim. In porta aliquet vehicula. Aenean mollis velit ut leo vestibulum vehicula. Etiam consequat condimentum interdum. Quisque sapien ipsum, cursus sit amet sapien vitae, ultrices elementum lorem. Nam at augue nec quam congue feugiat in ut nibh. Pellentesque ut placerat libero. Aliquam et libero est. Nulla facilisi. Ut accumsan dui sit amet elit vestibulum, eu feugiat purus vehicula. Donec vel metus est. Aenean augue nisl, blandit non pellentesque a, rhoncus quis enim. Sed consequat sit amet mauris at venenatis.
+
+				Aenean eget efficitur libero. Mauris et purus dictum, blandit risus nec, varius libero. Nunc est mi, tincidunt in blandit quis, malesuada in nibh. Maecenas elementum sagittis ante, ac fringilla nibh bibendum vitae. Mauris nibh ante, consectetur et volutpat sed, euismod vitae leo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas eget orci eget tortor scelerisque dictum. Duis fringilla condimentum turpis sed condimentum. Nunc ornare sem et mauris molestie pharetra. Proin dignissim efficitur ipsum, et vulputate lorem iaculis eget. Ut fermentum ac dolor ac imperdiet. Cras sed consequat quam, nec rutrum sem. </p>
+    </div>
+  </div>
+</div>
+</div>
+<!--
+        <ul>
+          <a href="#"><li class="foot">Mentions légales</li></a>
+          <a href="#"><li class="foot">C.G.U.</li></a>
+          <a href="#"><li class="foot">A propos de nous</li></a>
+        </ul>
+
+        -->
+      </div>
+                                              <!-- Fin bloc droite -->
+   </div>                                           
+  </footer>
+                                              <!-- Fin du Footer -->
+</body>
+</html> 
